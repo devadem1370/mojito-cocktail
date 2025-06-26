@@ -1,12 +1,67 @@
-# React + Vite
+# Mojito Cocktail
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web application for showcasing mojito cocktail recipes and related content. Built with React, Vite, Tailwind CSS, and GSAP for smooth animations.
 
-Currently, two official plugins are available:
+## Features
+- Beautiful landing page with hero section and animated elements
+- About, Menu, Cocktails, Art, and Contact sections
+- Responsive design for all devices
+- Smooth scrolling and transitions
+- Image and video assets for a rich user experience
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React: UI library for building interactive interfaces
+- Vite: Fast build tool and development server
+- Tailwind CSS: Utility-first CSS framework
+- GSAP: Animation library for React
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js (v18 or later recommended)
+- npm (v9 or later)
+
+### Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/devadem1370/mojito-cocktail.git
+   cd mojito-cocktail
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+### Development
+Start the development server:
+```sh
+npm run dev
+```
+The app will be available at `http://localhost:5173` (or as indicated in your terminal).
+
+### Build
+To build for production:
+```sh
+npm run build
+```
+
+### Preview Production Build
+```sh
+npm run preview
+```
+
+## Project Structure
+```
+public/           # Static assets (images, fonts, videos)
+src/              # Source code
+  components/     # React components
+  assets/         # Additional assets
+  App.jsx         # Main app component
+  main.jsx        # Entry point
+constants/        # Project constants
+index.html        # Main HTML file
+vite.config.js    # Vite configuration
+```
+
+## Deployment
+This project is ready to deploy on Vercel, Netlify, or any static hosting provider.
